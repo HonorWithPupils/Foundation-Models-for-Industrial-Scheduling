@@ -1,0 +1,7 @@
+python>=3.10 
+pytorch>=2.4.0 
+accelerate>=0.32.1
+numpy
+matplotlib
+seaborn
+tqdm
