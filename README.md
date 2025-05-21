@@ -1,6 +1,6 @@
 # Foundation Models for Industrial Scheduling
 
-<img src="./README.assets/Main.png" alt="Main" style="zoom: 30%;" />
+![main](README.assets/Main.png)
 
 Inspired by the key technologies and design ideas in LLMs, we develop a foundation model for industrial scheduling using key technologies that are critical to the success of LLMs. Thanks to the techniques from LLMs, our foundation models exhibit scalability, generalization, and adaptability in industrial problems comparable to LLMs in NLP. 
 
@@ -30,7 +30,7 @@ Expected results:
 Makespan: 748
 ```
 
-<img src="./README.assets/Gantt.png" alt="Expected result -- Gantt" title="Expected result -- Gantt" style="zoom: 25%;" />
+![Gantt](README.assets/Gantt.png)
 
 **Note**: Since job serial numbers are randomly assigned in the current implementation, the results are somewhat random. 
 
