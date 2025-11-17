@@ -67,5 +67,5 @@ Because of the ongoing work on organizing the source code and the imperfections 
 
 - Solving loss spike problems 
 - Enhanced Visualization 
-- Enhanced scalability for the number of processes and machines 
-
+- Enhanced scalability for the number of processes and machines
+- Partially support DAG-like dependencies 
