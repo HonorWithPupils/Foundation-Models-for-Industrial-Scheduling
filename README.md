@@ -196,3 +196,6 @@ See the `LICENSE` file for full license text.
 ------
 
 > **Disclaimer**
+
+>  This repository is intended for **research purposes only** and may undergo non-backward-compatible changes during active development.
+
