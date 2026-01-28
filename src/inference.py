@@ -1,5 +1,6 @@
 import torch
 from torch.nn import functional as F
+from tqdm import tqdm
 
 from src.FJSP import Envs
 
@@ -49,7 +50,7 @@ def BeamSearch(
     r = []
     actions = []
 
-    for i in range(envs.l):
+    for i in tqdm(range(envs.l), desc="Beam Search", unit="step"):
 
         with torch.autocast(device_type=device, dtype=torch.bfloat16):
             P = actor(*state)
